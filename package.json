@@ -1,0 +1,21 @@
+{
+  "name": "mailer",
+  "description": "Send email if a web site is unreachable",
+  "version": "1.0.0",
+  "private": true,
+  "files": [
+    "main.js"
+  ],
+  "scripts": {
+    "start": "claudia create --name mailer --region us-west-2 --handler main.handler --policies policies",
+    "test": "claudia test-lambda --event test.json",
+    "deploy": "claudia update"
+  },
+  "devDependencies": {
+    "@brightsole/eslint-config-lint-node": "^0.0.2",
+    "claudia": "^4"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.2.37"
+  }
+}

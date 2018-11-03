@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "mailer-executor",
+    "name": "mailer",
+    "region": "us-west-2"
+  }
+}
