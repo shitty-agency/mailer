@@ -38,8 +38,10 @@
   2. Instantiate the targets database
   3. Instantiate the image repository
   4. Create the Evaluator
-  5. Email template research
-  6. Create a not-shit email template
+  5. Test mocked context interactions
+  6. Test mocked database interactions
+  7. Email template research
+  8. Create a not-shit email template
 
 </details>
 <br/>

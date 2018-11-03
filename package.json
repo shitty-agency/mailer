@@ -1,7 +1,10 @@
 {
   "name": "mailer",
-  "description": "Send email if a web site is unreachable",
-  "version": "1.0.0",
+  "description": "Send email when invoked with proper data",
+  "repository": "git@github.com/shitty-agency/mailer",
+  "author": "onChange.fyi team <maelstroswim@gmail.com>",
+  "license": "MIT",
+  "version": "0.0.0",
   "private": true,
   "files": [
     "main.js"
